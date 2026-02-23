@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niraja Shruti | AI & ML Developer</title>
+    <meta name="description"
+        content="Portfolio of Niraja Shruti — Aspiring AI & Machine Learning Developer, B.Tech Student, India.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <!-- ====== NAVBAR ====== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand">
+            <span class="brand-dot"></span>
+            <span>Niraja<span class="accent">.</span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#journey">Journey</a></li>
+            <li><a href="#hackathons">Hackathons</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="/download-resume" class="nav-resume-btn">
+            <i class="fa-solid fa-download"></i> Resume
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- ====== HERO ====== -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="grid-overlay"></div>
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="particle-field" id="particles"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fa-solid fa-circle-dot pulse-dot"></i>
+                Available for Internships & Hackathons
+            </div>
+            <h1 class="hero-name">Niraja <span class="gradient-text">Shruti</span></h1>
+            <div class="hero-role">
+                <span class="role-prefix">I build </span>
+                <span class="typewriter" id="typewriter"></span>
+                <span class="cursor-blink">|</span>
+            </div>
+            <p class="hero-desc">
+                2nd year B.Tech student from India — passionate about solving real-world problems
+                with <strong>AI, Machine Learning</strong>, Drones, and Agentic systems.
+            </p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary">
+                    <i class="fa-solid fa-paper-plane"></i> Contact Me
+                </a>
+                <a href="/download-resume" class="btn btn-secondary">
+                    <i class="fa-solid fa-download"></i> Download Resume
+                </a>
+            </div>
+            <div class="hero-socials">
+                <a href="https://github.com/" target="_blank" class="social-icon" title="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/" target="_blank" class="social-icon" title="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:vniraja7847@gmail.com" class="social-icon" title="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ====== ABOUT ====== -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Who I Am</span>
+                <h2>About <span class="gradient-text">Me</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-card reveal">
+                    <div class="about-avatar">
+                        <div class="avatar-ring"></div>
+                        <div class="avatar-inner">
+                            <i class="fa-solid fa-user-astronaut"></i>
+                        </div>
+                    </div>
+                    <div class="about-info">
+                        <div class="info-row"><i class="fa-solid fa-location-dot"></i> <span>Bhawanipatna, Kalahandi,
+                                Odisha, India</span></div>
+                        <div class="info-row"><i class="fa-solid fa-envelope"></i> <span>vniraja7847@gmail.com</span>
+                        </div>
+                        <div class="info-row"><i class="fa-solid fa-graduation-cap"></i> <span>B.Tech (2024 –
+                                Present)</span></div>
+                        <div class="info-row"><i class="fa-solid fa-calendar-days"></i> <span>Born: July 10, 2003</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text reveal">
+                    <p>
+                        I'm <strong>Niraja Shruti</strong>, an aspiring AI professional on a mission to build
+                        technology that matters. I believe AI isn't just a tool — it's the future language of
+                        problem-solving.
+                    </p>
+                    <p>
+                        From training my first ML model to experimenting with agentic AI systems and drone
+                        navigation, each project teaches me something new. My goal is to participate in
+                        hackathons, contribute to open-source, and land an internship where I can grow
+                        alongside brilliant minds.
+                    </p>
+                    <div class="about-langs">
+                        <span class="lang-chip">🇬🇧 English</span>
+                        <span class="lang-chip">🇮🇳 Hindi</span>
+                        <span class="lang-chip">🧡 Telugu (Native)</span>
+                    </div>
+                    <div class="soft-skills">
+                        <span>Problem Solver</span>
+                        <span>Quick Learner</span>
+                        <span>Critical Thinker</span>
+                        <span>Sound Coding</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== SKILLS ====== -->
+    <section class="section section-dark" id="skills">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">What I Know</span>
+                <h2>My <span class="gradient-text">Skills</span></h2>
+            </div>
+            <div class="skills-categories">
+                <div class="skill-cat reveal">
+                    <div class="skill-cat-header">
+                        <i class="fa-solid fa-brain"></i>
+                        <h3>AI &amp; Machine Learning</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <span class="skill-pill hot">Machine Learning</span>
+                        <span class="skill-pill hot">Deep Learning</span>
+                        <span class="skill-pill hot">NLP</span>
+                        <span class="skill-pill">Transformers</span>
+                        <span class="skill-pill">Scikit-learn</span>
+                        <span class="skill-pill">NumPy</span>
+                        <span class="skill-pill">Pandas</span>
+                        <span class="skill-pill">Groq API</span>
+                        <span class="skill-pill">Agentic AI</span>
+                    </div>
+                </div>
+                <div class="skill-cat reveal">
+                    <div class="skill-cat-header">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Programming &amp; Web</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <span class="skill-pill hot">Python</span>
+                        <span class="skill-pill">HTML &amp; CSS</span>
+                        <span class="skill-pill">JavaScript</span>
+                        <span class="skill-pill">Flask</span>
+                        <span class="skill-pill">Three.js</span>
+                        <span class="skill-pill">Android Dev</span>
+                        <span class="skill-pill">REST APIs</span>
+                    </div>
+                </div>
+                <div class="skill-cat reveal">
+                    <div class="skill-cat-header">
+                        <i class="fa-solid fa-drone"></i>
+                        <h3>Emerging Tech</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <span class="skill-pill hot">Drone Systems</span>
+                        <span class="skill-pill hot">Robotics</span>
+                        <span class="skill-pill">Computer Vision</span>
+                        <span class="skill-pill">Reinforcement Learning</span>
+                        <span class="skill-pill">3D Generation</span>
+                        <span class="skill-pill">Multi-Agent AI</span>
+                    </div>
+                </div>
+                <div class="skill-cat reveal">
+                    <div class="skill-cat-header">
+                        <i class="fa-solid fa-toolbox"></i>
+                        <h3>Tools &amp; Platforms</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <span class="skill-pill">Google Colab</span>
+                        <span class="skill-pill">Git &amp; GitHub</span>
+                        <span class="skill-pill">Windows</span>
+                        <span class="skill-pill">VS Code</span>
+                        <span class="skill-pill">Data Structures</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== PROJECTS ====== -->
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">What I've Built</span>
+                <h2>My <span class="gradient-text">Projects</span></h2>
+            </div>
+            <div class="projects-grid">
+
+                <div class="project-card reveal">
+                    <div class="project-glow"></div>
+                    <div class="project-top">
+                        <div class="project-icon"><i class="fa-solid fa-comment-dots"></i></div>
+                        <div class="project-status status-done">Completed</div>
+                    </div>
+                    <h3>Excuse Generator <span>using AI &amp; ML</span></h3>
+                    <p>An AI-powered excuse generator using Transformer models and NLP. Type any situation — it creates
+                        convincing, contextual excuses instantly.</p>
+                    <div class="project-tech">
+                        <span>Transformers</span><span>Scikit-learn</span><span>NumPy</span><span>Pandas</span>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="project-glow"></div>
+                    <div class="project-top">
+                        <div class="project-icon"><i class="fa-solid fa-film"></i></div>
+                        <div class="project-status status-wip">In Progress</div>
+                    </div>
+                    <h3>AI Movie Maker</h3>
+                    <p>An agentic AI system that auto-generates short movie scripts, storyboards, and scene descriptions
+                        using LLMs and multi-agent orchestration.</p>
+                    <div class="project-tech">
+                        <span>Python</span><span>Groq API</span><span>LLM Agents</span><span>NLP</span>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="project-glow"></div>
+                    <div class="project-top">
+                        <div class="project-icon"><i class="fa-solid fa-cube"></i></div>
+                        <div class="project-status status-wip">In Progress</div>
+                    </div>
+                    <h3>ZeroCode3D</h3>
+                    <p>Natural language to 3D scene generator. Describe a 3D world in plain English and the AI renders
+                        it live in the browser using Three.js.</p>
+                    <div class="project-tech">
+                        <span>Three.js</span><span>Python</span><span>AI</span><span>JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="project-glow"></div>
+                    <div class="project-top">
+                        <div class="project-icon"><i class="fa-solid fa-drone-front"></i></div>
+                        <div class="project-status status-wip">In Progress</div>
+                    </div>
+                    <h3>Drone AI Navigation</h3>
+                    <p>Autonomous drone navigation platform using computer vision and reinforcement learning for
+                        obstacle avoidance and intelligent path planning.</p>
+                    <div class="project-tech">
+                        <span>Python</span><span>CV</span><span>RL</span><span>Robotics</span>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="project-glow"></div>
+                    <div class="project-top">
+                        <div class="project-icon"><i class="fa-solid fa-robot"></i></div>
+                        <div class="project-status status-wip">Research</div>
+                    </div>
+                    <h3>Agentic AI Explorer</h3>
+                    <p>Exploring and building multi-agent AI systems that automate complex workflows — inspired by
+                        LangChain and AutoGPT architectures.</p>
+                    <div class="project-tech">
+                        <span>Python</span><span>LangChain</span><span>Agents</span><span>LLMs</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== LEARNING JOURNEY ====== -->
+    <section class="section section-dark" id="journey">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">My Path</span>
+                <h2>Learning <span class="gradient-text">Journey</span></h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2022</div>
+                        <h4>Python Fundamentals</h4>
+                        <p>Started coding journey with Python — loops, functions, OOP, and data structures.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2023</div>
+                        <h4>Machine Learning &amp; Data Science</h4>
+                        <p>Learned Scikit-learn, NumPy, Pandas. Built first ML models — regression, classification,
+                            clustering.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot active"></div>
+                    <div class="timeline-content active">
+                        <div class="timeline-year">2024</div>
+                        <h4>NLP, Transformers &amp; Agentic AI</h4>
+                        <p>Dived into Transformer models, NLP pipelines. Built Excuse Generator. Started exploring
+                            agentic AI systems.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot future"></div>
+                    <div class="timeline-content future">
+                        <div class="timeline-year">2025 →</div>
+                        <h4>Drones, Three.js &amp; Internships</h4>
+                        <p>Currently building: AI Movie Maker, ZeroCode3D, Drone AI. Targeting hackathons &amp; AI
+                            internships.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== HACKATHONS & ACHIEVEMENTS ====== -->
+    <section class="section" id="hackathons">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">My Goals &amp; Wins</span>
+                <h2>Hackathons &amp; <span class="gradient-text">Achievements</span></h2>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-card reveal">
+                    <div class="achievement-icon"><i class="fa-solid fa-trophy"></i></div>
+                    <h4>Hackathon Ready</h4>
+                    <p>Actively targeting national &amp; international AI hackathons to build, compete, and win.</p>
+                    <div class="achievement-badge">Goal 2025</div>
+                </div>
+                <div class="achievement-card reveal">
+                    <div class="achievement-icon"><i class="fa-solid fa-briefcase"></i></div>
+                    <h4>Internship Seeker</h4>
+                    <p>Looking for AI/ML internships to apply theoretical knowledge to real-world products.</p>
+                    <div class="achievement-badge">Open to Work</div>
+                </div>
+                <div class="achievement-card reveal">
+                    <div class="achievement-icon"><i class="fa-solid fa-rocket"></i></div>
+                    <h4>Product Builder</h4>
+                    <p>Building AI products — from NLP tools to drone systems — with a focus on innovation.</p>
+                    <div class="achievement-badge">In Progress</div>
+                </div>
+                <div class="achievement-card reveal">
+                    <div class="achievement-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <h4>B.Tech Student</h4>
+                    <p>Pursuing B.Tech with focus on AI and Machine Learning. Strong academic foundation.</p>
+                    <div class="achievement-badge">2024 – Present</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== CONTACT ====== -->
+    <section class="section section-dark" id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Let's Talk</span>
+                <h2>Get In <span class="gradient-text">Touch</span></h2>
+            </div>
+            <div class="contact-wrapper reveal">
+                <div class="contact-info-block">
+                    <p>I'm open to internship opportunities, hackathon collaborations, and interesting AI projects.
+                        Don't hesitate to reach out!</p>
+                    <div class="contact-items">
+                        <a href="mailto:vniraja7847@gmail.com" class="contact-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>vniraja7847@gmail.com</span>
+                        </a>
+                        <a href="tel:+917847900818" class="contact-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+91 7847900818</span>
+                        </a>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Odisha, India</span>
+                        </div>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="https://github.com/" target="_blank" class="contact-social-btn">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                        <a href="https://linkedin.com/" target="_blank" class="contact-social-btn">
+                            <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+                        </a>
+                        <a href="mailto:vniraja7847@gmail.com" class="contact-social-btn">
+                            <i class="fa-solid fa-envelope"></i> Email
+                        </a>
+                        <a href="/download-resume" class="contact-social-btn accent-btn">
+                            <i class="fa-solid fa-download"></i> Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== FOOTER ====== -->
+    <footer class="footer">
+        <p>Designed &amp; Built by <span class="gradient-text">Niraja Shruti</span> · 2024</p>
+        <p class="footer-sub">Powered by Python, Flask &amp; Groq AI</p>
+    </footer>
+
+    <!-- ====== CHATBOT WIDGET ====== -->
+    <div class="chat-widget" id="chatWidget">
+        <button class="chat-fab" id="chatToggle" title="Chat with Nira AI">
+            <i class="fa-solid fa-comments" id="chatIcon"></i>
+            <i class="fa-solid fa-xmark" id="chatCloseIcon" style="display:none"></i>
+            <span class="chat-notification">1</span>
+        </button>
+        <div class="chat-window" id="chatWindow">
+            <div class="chat-header">
+                <div class="chat-header-info">
+                    <div class="chat-avatar"><i class="fa-solid fa-robot"></i></div>
+                    <div>
+                        <strong>Nira AI</strong>
+                        <small>Niraja's Portfolio Assistant</small>
+                    </div>
+                </div>
+                <div class="chat-status"><span class="online-dot"></span> Online</div>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+                <div class="chat-msg bot">
+                    <div class="msg-bubble">
+                        👋 Hi! I'm <strong>Nira</strong>, Niraja's AI assistant. Ask me anything about her skills,
+                        projects, or how to contact her!
+                    </div>
+                </div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="chatInput" placeholder="Ask about Niraja..." />
+                <button id="chatSend"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ====== Typewriter ======
+        const roles = [
+            "AI & ML Systems",
+            "Agentic AI Apps",
+            "3D AI Tools",
+            "Drone Intelligence",
+            "Full-Stack Products"
+        ];
+        let ri = 0, ci = 0, deleting = false;
+        const tw = document.getElementById('typewriter');
+        function typeIt() {
+            const word = roles[ri];
+            tw.textContent = deleting ? word.slice(0, ci--) : word.slice(0, ci++);
+            if (!deleting && ci > word.length) { deleting = true; setTimeout(typeIt, 1200); return; }
+            if (deleting && ci < 0) { deleting = false; ri = (ri + 1) % roles.length; }
+            setTimeout(typeIt, deleting ? 50 : 90);
+        }
+        typeIt();
+
+        // ====== Particles ======
+        const field = document.getElementById('particles');
+        for (let i = 0; i < 50; i++) {
+            const p = document.createElement('div');
+            p.className = 'particle';
+            p.style.cssText = `left:${Math.random() * 100}%;top:${Math.random() * 100}%;
+            animation-delay:${Math.random() * 5}s;animation-duration:${3 + Math.random() * 4}s;
+            width:${1 + Math.random() * 3}px;height:${1 + Math.random() * 3}px;opacity:${0.2 + Math.random() * 0.5}`;
+            field.appendChild(p);
+        }
+
+        // ====== Navbar scroll ======
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // ====== Hamburger ======
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('open');
+            navLinks.classList.toggle('mobile-open');
+        });
+
+        // ====== Reveal on scroll ======
+        const reveals = document.querySelectorAll('.reveal');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+        }, { threshold: 0.1 });
+        reveals.forEach(el => observer.observe(el));
+
+        // ====== Chatbot ======
+        const chatToggle = document.getElementById('chatToggle');
+        const chatWindow = document.getElementById('chatWindow');
+        const chatIcon = document.getElementById('chatIcon');
+        const chatCloseIcon = document.getElementById('chatCloseIcon');
+        const chatInput = document.getElementById('chatInput');
+        const chatSend = document.getElementById('chatSend');
+        const chatMessages = document.getElementById('chatMessages');
+        const notification = document.querySelector('.chat-notification');
+
+        chatToggle.addEventListener('click', () => {
+            chatWindow.classList.toggle('open');
+            const isOpen = chatWindow.classList.contains('open');
+            chatIcon.style.display = isOpen ? 'none' : '';
+            chatCloseIcon.style.display = isOpen ? '' : 'none';
+            if (notification) notification.style.display = 'none';
+        });
+
+        function addMsg(text, sender) {
+            const div = document.createElement('div');
+            div.className = `chat-msg ${sender}`;
+            const bubble = document.createElement('div');
+            bubble.className = 'msg-bubble';
+            bubble.innerHTML = text;
+            div.appendChild(bubble);
+            chatMessages.appendChild(div);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function showTyping() {
+            const div = document.createElement('div');
+            div.className = 'chat-msg bot typing-indicator';
+            div.id = 'typing';
+            div.innerHTML = '<div class="msg-bubble"><span></span><span></span><span></span></div>';
+            chatMessages.appendChild(div);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function removeTyping() {
+            const t = document.getElementById('typing');
+            if (t) t.remove();
+        }
+
+        async function sendMessage() {
+            const text = chatInput.value.trim();
+            if (!text) return;
+            addMsg(text, 'user');
+            chatInput.value = '';
+            showTyping();
+            try {
+                const res = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: text })
+                });
+                const data = await res.json();
+                removeTyping();
+                addMsg(data.response || 'No response received.', 'bot');
+            } catch (err) {
+                removeTyping();
+                addMsg('Sorry, something went wrong. Please try again!', 'bot');
+            }
+        }
+
+        chatSend.addEventListener('click', sendMessage);
+        chatInput.addEventListener('keypress', e => { if (e.key === 'Enter') sendMessage(); });
+    </script>
+</body>
+
+</html>
